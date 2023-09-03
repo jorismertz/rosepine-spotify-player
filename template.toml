@@ -1,0 +1,33 @@
+[[themes]]
+name = "$name"
+[themes.palette]
+background = "$base"
+foreground = "$text"
+black = "$overlay"
+red = "$love"
+green = "$foam"
+yellow = "$gold"
+blue = "$pine"
+magenta = "$iris"
+cyan = "$rose"
+white = "$text"
+bright_black = "$muted"
+bright_red = "$love"
+bright_green = "$foam"
+bright_yellow = "$gold"
+bright_blue = "$pine"
+bright_magenta = "$iris"
+bright_cyan = "$rose"
+bright_white = "$text"
+[themes.component_style]
+block_title = { fg = "Magenta" }
+border = {}
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "BrightBlack", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+selection = { modifiers = ["Bold", "Reversed"] }

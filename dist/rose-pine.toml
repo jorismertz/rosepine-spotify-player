@@ -1,0 +1,33 @@
+[[themes]]
+name = "Rosé Pine"
+[themes.palette]
+background = "#191724"
+foreground = "#e0def4"
+black = "#26233a"
+red = "#eb6f92"
+green = "#9ccfd8"
+yellow = "#f6c177"
+blue = "#31748f"
+magenta = "#c4a7e7"
+cyan = "#ebbcba"
+white = "#e0def4"
+bright_black = "#6e6a86"
+bright_red = "#eb6f92"
+bright_green = "#9ccfd8"
+bright_yellow = "#f6c177"
+bright_blue = "#31748f"
+bright_magenta = "#c4a7e7"
+bright_cyan = "#ebbcba"
+bright_white = "#e0def4"
+[themes.component_style]
+block_title = { fg = "Magenta" }
+border = {}
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "BrightBlack", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+selection = { modifiers = ["Bold", "Reversed"] }
