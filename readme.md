@@ -13,13 +13,19 @@
 
 ## Usage
 
-1. Download theme
+1. Download all theme variants
 ```bash
 curl https://raw.githubusercontent.com/jorismertz/spotify-player-rose-pine/main/theme.toml >> $HOME/.config/spotify-player/theme.toml
 ```
 2. Open App
 3. press `shift + t (T)`
-4. Select `Rosé Pine` or your preferred variant from the themes dropdown
+4. Select `rose-pine` or your preferred variant from the themes menu
+
+Alternatively you can only install a specific variant if you want to
+```bash
+THEME_VARIANT="rose-pine-moon" # Options: rose-pine, rose-pine-moon or rose-pine-dawn
+curl https://raw.githubusercontent.com/jorismertz/spotify-player-rose-pine/main/dist/$THEME_VARIANT.toml >> $HOME/.config/spotify-player/theme.toml
+```
 
 ## Gallery
 
@@ -36,12 +42,11 @@ curl https://raw.githubusercontent.com/jorismertz/spotify-player-rose-pine/main/
 
 ## Contributing
 
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
+Modify `template.toml` using Rosé Pine variables, then build variants:
 
-Modify `template.json` using Rosé Pine variables, then build variants:
 
 ```sh
-npx @rose-pine/build@latest
+# Run from root of project folder
+./build.sh
 ```
-
-
+Combined file with all variants or Rosé Pine is saved in `theme.toml`
