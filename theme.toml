@@ -1,0 +1,102 @@
+
+[[themes]]
+name = "rose-pine-moon"
+[themes.palette]
+background = "#232136"
+foreground = "#e0def4"
+black = "#393552"
+red = "#eb6f92"
+green = "#9ccfd8"
+yellow = "#f6c177"
+blue = "#3e8fb0"
+magenta = "#c4a7e7"
+cyan = "#ea9a97"
+white = "#e0def4"
+bright_black = "#6e6a86"
+bright_red = "#eb6f92"
+bright_green = "#9ccfd8"
+bright_yellow = "#f6c177"
+bright_blue = "#3e8fb0"
+bright_magenta = "#c4a7e7"
+bright_cyan = "#ea9a97"
+bright_white = "#e0def4"
+[themes.component_style]
+block_title = { fg = "Magenta"  }
+border = {}
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "BrightBlack", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+selection = { modifiers = ["Bold", "Reversed"] }
+    
+[[themes]]
+name = "rose-pine"
+[themes.palette]
+background = "#191724"
+foreground = "#e0def4"
+black = "#26233a"
+red = "#eb6f92"
+green = "#9ccfd8"
+yellow = "#f6c177"
+blue = "#31748f"
+magenta = "#c4a7e7"
+cyan = "#ebbcba"
+white = "#e0def4"
+bright_black = "#6e6a86"
+bright_red = "#eb6f92"
+bright_green = "#9ccfd8"
+bright_yellow = "#f6c177"
+bright_blue = "#31748f"
+bright_magenta = "#c4a7e7"
+bright_cyan = "#ebbcba"
+bright_white = "#e0def4"
+[themes.component_style]
+block_title = { fg = "Magenta"  }
+border = {}
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "BrightBlack", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+selection = { modifiers = ["Bold", "Reversed"] }
+
+[[themes]]
+name = "rose-pine-dawn"
+[themes.palette]
+background = "#faf4ed"
+foreground = "#575279"
+black = "#f2e9e1"
+red = "#b4637a"
+green = "#56949f"
+yellow = "#ea9d34"
+blue = "#286983"
+magenta = "#907aa9"
+cyan = "#d7827e"
+white = "#575279"
+bright_black = "#9893a5"
+bright_red = "#b4637a"
+bright_green = "#56949f"
+bright_yellow = "#ea9d34"
+bright_blue = "#286983"
+bright_magenta = "#907aa9"
+bright_cyan = "#d7827e"
+bright_white = "#575279"
+[themes.component_style]
+block_title = { fg = "Magenta"  }
+border = {}
+playback_track = { fg = "Cyan", modifiers = ["Bold"] }
+playback_artists = { fg = "Cyan", modifiers = ["Bold"] }
+playback_album = { fg = "Yellow" }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "BrightBlack", fg = "Green" }
+current_playing = { fg = "Green", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+selection = { modifiers = ["Bold", "Reversed"] }
