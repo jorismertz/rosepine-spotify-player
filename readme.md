@@ -17,7 +17,7 @@
 ```bash
 curl https://raw.githubusercontent.com/jorismertz/spotify-player-rose-pine/main/theme.toml >> $HOME/.config/spotify-player/theme.toml
 ```
-2. Open App
+2. Open `spotify_player`
 3. press `shift + t (T)`
 4. Select `rose-pine` or your preferred variant from the themes menu
 
