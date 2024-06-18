@@ -1,7 +1,6 @@
 [[themes]]
 name = "$name"
 [themes.palette]
-background = "$base"
 foreground = "$text"
 black = "$overlay"
 red = "$love"

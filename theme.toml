@@ -1,8 +1,6 @@
-
 [[themes]]
 name = "Rosé Pine"
 [themes.palette]
-background = "#191724"
 foreground = "#e0def4"
 black = "#26233a"
 red = "#eb6f92"
@@ -32,11 +30,9 @@ current_playing = { fg = "Green", modifiers = ["Bold"] }
 page_desc = { fg = "Cyan", modifiers = ["Bold"] }
 table_header = { fg = "Blue" }
 selection = { modifiers = ["Bold", "Reversed"] }
-
 [[themes]]
 name = "Rosé Pine Moon"
 [themes.palette]
-background = "#232136"
 foreground = "#e0def4"
 black = "#393552"
 red = "#eb6f92"
@@ -66,11 +62,9 @@ current_playing = { fg = "Green", modifiers = ["Bold"] }
 page_desc = { fg = "Cyan", modifiers = ["Bold"] }
 table_header = { fg = "Blue" }
 selection = { modifiers = ["Bold", "Reversed"] }
-
 [[themes]]
 name = "Rosé Pine Dawn"
 [themes.palette]
-background = "#faf4ed"
 foreground = "#575279"
 black = "#f2e9e1"
 red = "#b4637a"

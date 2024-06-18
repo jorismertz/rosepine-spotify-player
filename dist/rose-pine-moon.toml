@@ -1,7 +1,6 @@
 [[themes]]
 name = "Rosé Pine Moon"
 [themes.palette]
-background = "#232136"
 foreground = "#e0def4"
 black = "#393552"
 red = "#eb6f92"

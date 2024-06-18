@@ -1,7 +1,6 @@
 [[themes]]
 name = "Rosé Pine Dawn"
 [themes.palette]
-background = "#faf4ed"
 foreground = "#575279"
 black = "#f2e9e1"
 red = "#b4637a"
