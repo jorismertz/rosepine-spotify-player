@@ -15,7 +15,7 @@
 
 1. Download all theme variants
 ```bash
-curl https://raw.githubusercontent.com/jorismertz/spotify-player/main/theme.toml >> $HOME/.config/spotify-player/theme.toml
+curl https://raw.githubusercontent.com/jorismertz/rosepine-spotify-player/main/theme.toml >> $HOME/.config/spotify-player/theme.toml
 ```
 2. Open `spotify_player`
 3. press `shift + t (T)`
@@ -24,7 +24,7 @@ curl https://raw.githubusercontent.com/jorismertz/spotify-player/main/theme.toml
 Alternatively you can only install a specific variant if you want to
 ```bash
 THEME_VARIANT="rose-pine-moon" # Options: rose-pine, rose-pine-moon or rose-pine-dawn
-curl https://raw.githubusercontent.com/jorismertz/spotify-player/main/dist/$THEME_VARIANT.toml >> $HOME/.config/spotify-player/theme.toml
+curl https://raw.githubusercontent.com/jorismertz/rosepine-spotify-player/main/dist/$THEME_VARIANT.toml >> $HOME/.config/spotify-player/theme.toml
 ```
 
 ## Gallery
